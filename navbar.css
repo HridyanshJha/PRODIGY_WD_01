@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+    color: #fff; 
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff5733; /* Font color on hover */
+  }
+  
+  .container {
+    margin-top: 5rem;
+    height: 100vh;
+    background-image:url(https://www.wallpapertip.com/wmimgs/5-50776_background-for-coffee-shop-hd-wallpaper-backgrounds-its.jpg);
+    background-size: cover; /* Cover the entire container with the background image */
+  background-position: center; 
+  display: flex;
+  
+}
+
+h1 {
+    margin-top: 14rem;
+    margin-left: 5rem;
+    margin-right: 45rem;
+    color: antiquewhite;
+    text-align: left;
+}
